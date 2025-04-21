@@ -1,7 +1,7 @@
-package com.example.features
+package com.github.jwg4.lemonade_mod.features
 
-import com.example.ExampleMod
-import com.example.utils.ChatUtils
+import com.github.jwg4.lemonade_mod.ExampleMod
+import com.github.jwg4.lemonade_mod.utils.ChatUtils
 import net.minecraftforge.client.event.ClientChatReceivedEvent
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 

@@ -1,9 +1,9 @@
-package com.example
+package com.github.jwg4.lemonade_mod
 
-import com.example.commands.CommandManager
-import com.example.config.ConfigManager
-import com.example.config.categories.ExampleModConfig
-import com.example.features.ChatFeatures
+import com.github.jwg4.lemonade_mod.commands.CommandManager
+import com.github.jwg4.lemonade_mod.config.ConfigManager
+import com.github.jwg4.lemonade_mod.config.categories.ExampleModConfig
+import com.github.jwg4.lemonade_mod.features.ChatFeatures
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Loader
 import net.minecraftforge.fml.common.Mod
@@ -28,7 +28,7 @@ class ExampleMod {
 
     companion object {
         lateinit var configManager: ConfigManager
-        const val MOD_ID = "examplemod"
+        const val MOD_ID = "lemonademod"
 
         @JvmStatic
         val version: String

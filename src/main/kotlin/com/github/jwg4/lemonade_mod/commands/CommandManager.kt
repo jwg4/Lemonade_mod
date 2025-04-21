@@ -1,8 +1,8 @@
-package com.example.commands
+package com.github.jwg4.lemonade_mod.commands
 
-import com.example.ExampleMod
-import com.example.commands.SimpleCommand.ProcessCommandRunnable
-import com.example.utils.ChatUtils
+import com.github.jwg4.lemonade_mod.ExampleMod
+import com.github.jwg4.lemonade_mod.commands.SimpleCommand.ProcessCommandRunnable
+import com.github.jwg4.lemonade_mod.utils.ChatUtils
 import net.minecraft.command.ICommandSender
 import net.minecraft.util.BlockPos
 import net.minecraftforge.client.ClientCommandHandler
